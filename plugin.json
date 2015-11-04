@@ -1,7 +1,7 @@
 {
   "applocation": "ruby /var/cloudbox/CBApp/ruby/src/file.rb"
   "apptype": "SHELL",
-  "outputLogPath": "RubySDK_HelloWorld_plugin.cloudbox",
+  "outputLogPath": "jenkin.cloudbox",
   "params": {  
   "buildNo": "%buildnumber%",
   "cloudproviders": "%cloudproviders%",
@@ -15,7 +15,7 @@
    },  
   "pattern": "-domain,-format,-jobname,-masterurl,-project,-projectName,-userName,-loader_jobname,-log_level,-greeting_param",
   "version": "json",
-  "reportLocation": "cmtarget/RubySDK_HelloWorld_plugin",
+  "reportLocation": "cmtarget/jenkin",
   "reportTool": "insight",
   "reportpattern": "reporthtml",
   "prefixpattern": {
@@ -74,8 +74,8 @@
     "description": "Reads Greeting Message and saves that into database",
     "cm_developedby": "",
     "cb_category": "BUILD|masternode",
-    "cb_displayName": "RubySDK HelloWorld Plugin",
-    "cb_appname": "RubySDK_HelloWorld_plugin",
+    "cb_displayName": "jenkin",
+    "cb_appname": "jenkin",
     "cb_raisedefectonstepfailure": "no",
     "cb_abortonfailure": "no",
     "cb_display": "yes",
@@ -92,15 +92,15 @@
     "version": ""
   },
   "_type": "apps",
-  "_id": "RubySDK_HelloWorld_plugin",
+  "_id": "jenkin",
   "_copyright_info": "Copyright (C) CloudMunch.com - All Rights Reserved",
   "_create_time": "2015-08-07 06:23:28.32049",
   "_created_by": "ganesankrishnamurthi@cloudmunch.com",
   "_update_time": "2015-09-09 06:23:28.32049",
   "_updated_by": "ganesankrishnamurthi@cloudmunch.com",
-  "_number": "RubySDK_HelloWorld_plugin",
-  "id": "RubySDK_HelloWorld_plugin",
-  "name": "RubySDK_HelloWorld_plugin",
+  "_number": "jenkin",
+  "id": "jenkin",
+  "name": "jenkin",
   "build_dependencies":["bundler install"],
   "test_dependencies":["vendor/bin/ruby test/RubySDK_HelloWorld_plugin_test.rb"],
   "deploy_dependencies":["bundler install"],
