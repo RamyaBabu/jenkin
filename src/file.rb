@@ -30,7 +30,7 @@ class RubySDKHelloWorldPluginApp < AppAbstract
         log("debug", message)
         # the result_array needs to be stored into CMDB
         # updateCustomContext()
-        @id = "messageid"
+        @id = "file.rb"
         log("info", "Updating cmdb with exceldata: id:"+@id) 
 
         data_pack = {
